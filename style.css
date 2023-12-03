@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100½;
+}
+body {
+    padding: 20px;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+.container {
+    border-radius: 7px;
+    overflow: hidden;
+}
+.box {
+    height: 250px;
+    padding: 35px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+}
+.box h1 {
+    padding: 15px 0;
+    color:  hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.box p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.50);
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+button {
+    font-family: "Lexend Deca", sans-serif;;
+    width: 115px;
+    height: 45px;
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border-style: hidden;
+}
+.btn-sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: #fff !important;
+    border-color: #fff !important;
+    border-style:solid ;
+    cursor: pointer;
+}
+.btn-suv:hover {
+    background-color:hsl(184, 100%, 22%);
+    color: #fff !important;
+    border-color: #fff !important;
+    border-style:solid ;
+    cursor: pointer;
+}
+.btn-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: #fff !important;
+    border-color: #fff !important;
+    border-style:solid ;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        margin-top: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        max-width: 768px;
+        margin-bottom: 20px;
+    }
+    .box {
+        height: 370px;
+    }
+    .box p {
+        margin-top: -15px;
+        padding-bottom: 20px;
+    }
+}
