@@ -2,6 +2,8 @@
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
+This is the Github Page Link: https://ikbalboztepe.github.io/Frontend-Mentor-3-Card/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
